@@ -1,0 +1,31 @@
+body{
+  background-image: url("./components/Images/notes.jpg");
+  background-size:cover;
+}
+.main{
+  max-width: 500px;
+  margin: 0px auto;
+  padding: 0px 15px;
+  min-height: 100vh;
+}
+
+.header{
+  display: flex;
+  width: 100px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0px;
+}
+.title{
+  color: azure;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.notes{
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, minmax(300px, 1fr));
+  }
